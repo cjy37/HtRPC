@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<project name="Compc build" default="main">
+
+ <!-- defines all values for the Compc compiler -->
+ <property file="asdoc.properties" />
+
+ <!-- main target: cleans and compiles ASDocs -->
+ <target name="main" depends="clean, log, compc" />
+
+ <!-- deletes and recreates the compc directory -->
+ <target name="clean">
+
+  <delete dir="${output.dir}/${output.folder}" failonerror="true"/>
+
+  <delete file="${output.dir}/compc-log.log" failonerror="true"/>
+
+  <mkdir dir="${output.dir}/${output.folder}"/>
+
+ </target>
+
+ <!-- runs the compc.exe compiler on the source -->
+ <target name="compc">
+
+  <exec executable="${compc.exe}" failonerror="true">
+
+    <!--arg line="-include-sources '${src}'" />
+
+    <arg line="-output '${output.dir}/${output.folder}'" />
+
+    <arg line="-external-library-path '${external-library-path}'" /-->
+
+    <arg line="-source-path '${src}'"/>   
+
+    <arg line="-doc-sources '${src}'"/>   
+
+    <arg line="-main-title '${main.title}'"/>   
+
+    <arg line="-window-title '${window.title}'"/>   
+
+    <arg line="-footer '${footer}'"/>   
+
+    <arg line="-output '${output.dir}/${output.folder}'"/>  
+ 
+    <arg line="-library-path '${FLEX_HOME}\frameworks\libs'"/> 
+     
+		<arg line="-library-path '${player10-library-path}'"/>
+		
+    <arg line="-library-path '${external-library-path}'"/>
+
+  </exec>
+ </target>
+
+ <!-- writes compc output to log file: compc-log.log -->
+ <target name="log">
+  <record name="${output.dir}/compc-log.log" action="start" append="true" />
+ </target>
+
+</project>

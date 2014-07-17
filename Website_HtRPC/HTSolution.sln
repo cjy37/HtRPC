@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{EE594734-DFAA-4E17-BDDC-E4CA5373BE02}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OBDServiceLib", "OBDServiceLib", "{B3E0B0C5-765A-47D2-ACB2-4D59FE13FC13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp", "WebApp\WebApp.csproj", "{A3B5FBE6-43E6-44FD-9394-F312EEABFB86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OBDServiceLib", "OBDServiceLib\OBDServiceLib.csproj", "{0DA0E101-024D-44BC-BA90-03C5555C5D9B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A3B5FBE6-43E6-44FD-9394-F312EEABFB86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3B5FBE6-43E6-44FD-9394-F312EEABFB86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3B5FBE6-43E6-44FD-9394-F312EEABFB86}.Debug|x64.ActiveCfg = Debug|x64
+		{A3B5FBE6-43E6-44FD-9394-F312EEABFB86}.Debug|x64.Build.0 = Debug|x64
+		{A3B5FBE6-43E6-44FD-9394-F312EEABFB86}.Debug|x86.ActiveCfg = Debug|x86
+		{A3B5FBE6-43E6-44FD-9394-F312EEABFB86}.Debug|x86.Build.0 = Debug|x86
+		{A3B5FBE6-43E6-44FD-9394-F312EEABFB86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3B5FBE6-43E6-44FD-9394-F312EEABFB86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3B5FBE6-43E6-44FD-9394-F312EEABFB86}.Release|x64.ActiveCfg = Release|x64
+		{A3B5FBE6-43E6-44FD-9394-F312EEABFB86}.Release|x64.Build.0 = Release|x64
+		{A3B5FBE6-43E6-44FD-9394-F312EEABFB86}.Release|x86.ActiveCfg = Release|x86
+		{A3B5FBE6-43E6-44FD-9394-F312EEABFB86}.Release|x86.Build.0 = Release|x86
+		{0DA0E101-024D-44BC-BA90-03C5555C5D9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DA0E101-024D-44BC-BA90-03C5555C5D9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DA0E101-024D-44BC-BA90-03C5555C5D9B}.Debug|x64.ActiveCfg = Debug|x64
+		{0DA0E101-024D-44BC-BA90-03C5555C5D9B}.Debug|x64.Build.0 = Debug|x64
+		{0DA0E101-024D-44BC-BA90-03C5555C5D9B}.Debug|x86.ActiveCfg = Debug|x86
+		{0DA0E101-024D-44BC-BA90-03C5555C5D9B}.Debug|x86.Build.0 = Debug|x86
+		{0DA0E101-024D-44BC-BA90-03C5555C5D9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DA0E101-024D-44BC-BA90-03C5555C5D9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DA0E101-024D-44BC-BA90-03C5555C5D9B}.Release|x64.ActiveCfg = Release|x64
+		{0DA0E101-024D-44BC-BA90-03C5555C5D9B}.Release|x64.Build.0 = Release|x64
+		{0DA0E101-024D-44BC-BA90-03C5555C5D9B}.Release|x86.ActiveCfg = Release|x86
+		{0DA0E101-024D-44BC-BA90-03C5555C5D9B}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A3B5FBE6-43E6-44FD-9394-F312EEABFB86} = {EE594734-DFAA-4E17-BDDC-E4CA5373BE02}
+		{0DA0E101-024D-44BC-BA90-03C5555C5D9B} = {B3E0B0C5-765A-47D2-ACB2-4D59FE13FC13}
+	EndGlobalSection
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+EndGlobal
